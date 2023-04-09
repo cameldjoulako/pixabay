@@ -12,6 +12,7 @@
 :root {
   --pb-blue: #0d6efd;
   --pb-red: #dc3545;
+  --pb-primary: #00ab6b;
   --pb-orange: #fd7e14;
   --pb-yellow: #ffc107;
   --pb-green: #198754;
@@ -70,6 +71,24 @@ a:not([href]):not([class]):hover {
   height: 40px;
   padding: 0 16px;
   box-sizing: border-box;
+}
+
+.pb-button-primary {
+  color: var(--pb-white);
+  border: none;
+  background-color: var(--pb-primary);
+}
+
+.pb-button-secondary {
+  background: hsla(0, 0%, 100%, 0.1);
+  color: #fff;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+
+.pb-button-tertiary {
+  background: transparent;
+  color: #fff;
+  border: none;
 }
 
 .pb-flex-inline {
