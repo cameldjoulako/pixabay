@@ -5,13 +5,25 @@
   height: 64px;
   display: flex;
   justify-content: center;
-  background-color: #fff;
+  /* background-color: #fff; */
   position: fixed;
   top: 0;
   left: 0;
   z-index: 10;
   border-bottom: 1px solid #ebecf0;
   transition: background-color 0.2s;
+}
+
+.pb-header .pb-logoSvg {
+  color: #191b26;
+}
+.pb-header.pb-transparent {
+  background-color: transparent;
+  border-bottom: 1px solid transparent;
+}
+.pb-header.pb-transparent .pb-exploreButton,
+.pb-header.pb-transparent .pb-logoSvg {
+  color: #fff;
 }
 
 .pb-header > * {
@@ -29,14 +41,16 @@
     justify-content: flex-start;
   }
 }
-/* .pb-header > * > :nth-child(n + 2) {
-    margin-left: 8px;
-} */
+
+.pb-header > * > :nth-child(n + 2) {
+  margin-left: 8px;
+}
 
 /*Logo navbar style*/
 .pb-header > * > .pb-logo-nav {
   flex: 0 0 auto;
 }
+
 @media (min-width: 768px) {
   .pb-header > * > .pb-logo-nav.noGrowOnDesktop {
     flex: 0;
@@ -121,7 +135,7 @@
 }
 
 /*hero section content*/
-.container--8UnAl .content--kt-d1 {
+.pb-container-hero .pb-content-hero {
   position: relative;
   width: 100%;
   display: flex;
@@ -133,30 +147,55 @@
   padding: 0 32px;
 }
 @media (max-width: 768px) {
-  .container--8UnAl .content--kt-d1 {
+  .pb-container-hero .pb-content-hero {
     padding: 0 16px;
     min-height: 464px;
   }
 }
-.container--8UnAl .content--kt-d1 .wrapper--E-rzj {
+.pb-container-hero .pb-content-hero .pb-wrapper-hero {
   width: 100%;
   max-width: 840px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.container--8UnAl .content--kt-d1 .wrapper--E-rzj h1 {
+.pb-container-hero .pb-content-hero .pb-wrapper-hero h1 {
   margin: 0 0 8px;
   font-size: 32px;
 }
 @media (max-width: 768px) {
-  .container--8UnAl .content--kt-d1 .wrapper--E-rzj h1 {
+  .pb-container-hero .pb-content-hero .pb-wrapper-hero h1 {
     font-size: 24px;
   }
 }
-.container--8UnAl .content--kt-d1 .wrapper--E-rzj h2 {
+.pb-container-hero .pb-content-hero .pb-wrapper-hero h2 {
   font-weight: 400;
   font-size: 14px;
   margin: 0 0 24px;
   color: #fff;
+}
+/* container---s-RT =  */
+.pb-container-content {
+  padding: 0 0 0 8px;
+  height: 40px;
+  border-radius: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* padded--l0Z01 */
+.pb-container-content.pb-padded-content {
+  height: 56px;
+  padding: 0 0 0 24px;
+  border-radius: 56px;
+}
+
+.pb-container-content.pb-padded-content.pb-standard-content {
+  background-color: #fff;
+}
+
+.pb-heroSearch-content {
+  box-shadow: 0 16px 40px rgba(25, 27, 38, 0.08);
 }
