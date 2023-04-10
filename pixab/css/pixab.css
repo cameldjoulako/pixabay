@@ -80,10 +80,28 @@ a:not([href]):not([class]):hover {
   border: 1px solid hsla(0, 0%, 100%, 0.1);
 }
 
+.pb-button-light {
+  background: white;
+  color: #000;
+  border: 1px solid white;
+}
+
 .pb-button-tertiary {
   background: transparent;
   color: #fff;
   border: none;
+}
+
+.pb-button-tertiary-b {
+  background: transparent;
+  color: #656f79;
+  border: none;
+}
+
+.pb-button-tertiary-b:hover {
+  background: #f7f7f7;
+  color: #656f79;
+  border: 1px solid hsla(0, 0%, 100%, 0.1);
 }
 
 .pb-flex-inline {
@@ -103,4 +121,24 @@ a:not([href]):not([class]):hover {
 }
 .pb-ms-1 {
   margin-left: 0.3rem;
+}
+
+.pb-white-opacity-1 {
+  color: #fff;
+  opacity: 1;
+}
+
+.pb-hidden {
+  display: none;
+}
+
+.pb-label-600 {
+  font-weight: 600;
+  color: inherit;
+}
+
+.pb-separator-100 {
+  width: 100%;
+  height: 0;
+  margin: 8px 0;
 }

@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="pb-main">
-      <header class="pb-header pb-transparent">
+      <header class="pb-header pb-flex pb-transparent">
         <div>
           <div class="pb-logo-nav">
             <a href="#" aria-label="Pixabay"
@@ -110,7 +110,7 @@
           </picture>
         </div>
         <div class="pb-overlay-hero"></div>
-        <div class="pb-content-hero">
+        <div class="pb-content-hero pb-flex">
           <div class="pb-wrapper-hero">
             <h1>Images libres de droits & gratuites à télécharger</h1>
             <h2>
@@ -119,8 +119,127 @@
             </h2>
             <div
               class="pb-container-content pb-standard-content pb-padded-content pb-heroSearch-content"
-            ></div>
+            >
+              <form class="pb-searchForm-hero" action="" method="get">
+                <button
+                  class="pb-submit-hero"
+                  type="submit"
+                  aria-label="Rechercher dans toutes les images sur Pixabay"
+                >
+                  <i
+                    class="fa-solid fa-magnifying-glass pb-icon search--+Zx4F"
+                  ></i>
+                </button>
+                <input
+                  type="search"
+                  name="search"
+                  placeholder="Rechercher dans toutes les images sur Pixabay"
+                  value=""
+                />
+              </form>
+              <div class="pb-container-dropdown">
+                <div class="">
+                  <button
+                    class="pb-mediaTypeDropdown pb-button pb-button-light"
+                    type="button"
+                  >
+                    <span class="pb-label-600">Toutes les photos</span
+                    ><span class="pb-icon"></span>
+                  </button>
+                </div>
+                <div class="pb-dropdown pb-hidden">
+                  <div class="pb-dropdownMenu">
+                    <div class="pb-dropdownMenuItem pb-active">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>Toutes les photos</label>
+                    </div>
+                    <div class="pb-dropdownMenuItem">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>Photos</label>
+                    </div>
+                    <div class="pb-dropdownMenuItem">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>Illustrations</label>
+                    </div>
+                    <div class="pb-dropdownMenuItem">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>Vecteurs</label>
+                    </div>
+                    <div class="pb-dropdownMenuItem">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>Vidéos</label>
+                    </div>
+                    <div class="pb-dropdownMenuItem">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>Musique</label>
+                    </div>
+                    <div class="pb-dropdownMenuItem">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>Effets sonores</label>
+                    </div>
+                    <div class="pb-dropdownMenuItem">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>GIFs</label>
+                    </div>
+                    <div class="pb-dropdownMenuItem">
+                      <div class="pb-icon">
+                        <span class="pb-icon"></span>
+                      </div>
+                      <label>Utilisateurs</label>
+                    </div>
+                    <div class="pb-separator-100"></div>
+                    <a class="pb-dropdownMenuItem" href="#"
+                      ><label>Options de recherche</label></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+      </div>
+      <div class="pb-container-main">
+        <div class="pb-menu pb-flex">
+          <a href="" class="pb-button pb-flex-inline pb-button-tertiary-b"
+            >Home</a
+          >
+          <a href="" class="pb-button pb-flex-inline pb-button-tertiary-b"
+            >Photos</a
+          >
+          <a href="" class="pb-button pb-flex-inline pb-button-tertiary-b"
+            >Illustrations</a
+          >
+          <a href="" class="pb-button pb-flex-inline pb-button-tertiary-b"
+            >Vidéos</a
+          >
+          <a href="" class="pb-button pb-flex-inline pb-button-tertiary-b"
+            >Musique</a
+          >
+          <a href="" class="pb-button pb-flex-inline pb-button-tertiary-b"
+            >Effets</a
+          >
+          <a href="" class="pb-button pb-flex-inline pb-button-tertiary-b"
+            >sonores</a
+          >
+          <a href="" class="pb-button pb-flex-inline pb-button-tertiary-b"
+            >GIFs</a
+          >
         </div>
       </div>
     </div>
