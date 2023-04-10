@@ -95,7 +95,7 @@ a:not([href]):not([class]):hover {
 .pb-button-tertiary-b {
   background: transparent;
   color: #656f79;
-  border: none;
+  border: 1px solid white;
 }
 
 .pb-button-tertiary-b:hover {
@@ -141,4 +141,13 @@ a:not([href]):not([class]):hover {
   width: 100%;
   height: 0;
   margin: 8px 0;
+}
+
+.pb-active {
+  background: #f7f7f7;
+  color: black;
+}
+
+.pb-icon {
+  margin-right: 8px;
 }

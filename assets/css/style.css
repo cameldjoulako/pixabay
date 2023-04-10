@@ -314,3 +314,7 @@
   justify-content: center;
   width: 100%;
 }
+
+.pb-active .pb-icon {
+  color: #00ab6b;
+}
