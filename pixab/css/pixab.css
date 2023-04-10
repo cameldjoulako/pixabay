@@ -26,13 +26,8 @@
 body {
   margin: 0;
   font-family: "Open Sans", system-ui, sans-serif;
-  font-size: var(--pb-body-font-size);
-  font-weight: 14;
-  line-height: 21;
+  font-size: 14;
   color: var(--pb-text-color);
-  font-weight: 14;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 a {
@@ -46,10 +41,10 @@ a:not([href]):not([class]):hover {
   text-decoration: none;
 }
 
-.pb-nav-link {
+/* .pb-nav-link {
   cursor: pointer;
 }
-
+ */
 /*Flexbox*/
 .pb-flex {
   display: flex;
@@ -105,4 +100,7 @@ a:not([href]):not([class]):hover {
 /* Margin et padding */
 .pb-me-1 {
   margin-right: 0.3rem;
+}
+.pb-ms-1 {
+  margin-left: 0.3rem;
 }

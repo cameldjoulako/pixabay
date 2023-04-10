@@ -161,7 +161,7 @@
   align-items: flex-start;
 }
 
-/* .pb-container-hero .pb-content-hero .pb-wrapper-hero h1 {
+.pb-container-hero .pb-content-hero .pb-wrapper-hero h1 {
   margin: 0 0 8px;
   font-size: 32px;
 }
@@ -177,7 +177,7 @@
   font-size: 14px;
   margin: 0 0 24px;
   color: #fff;
-} */
+}
 
 /* container---s-RT =  */
 .pb-container-content {
