@@ -101,3 +101,8 @@ a:not([href]):not([class]):hover {
   white-space: nowrap;
   font-weight: 600;
 }
+
+/* Margin et padding */
+.pb-me-1 {
+  margin-right: 0.3rem;
+}
