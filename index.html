@@ -23,6 +23,36 @@
     />
   </head>
   <body>
+    <!-- Auth modal -->
+    <div id="pb-modal" class="pb-modal">
+      <div class="pb-modal-content">
+        <span class="pb-close">&times;</span>
+        <div id="pb-inscription-form" class="pb-form pb-hidden">
+          <h2>Sign up to download</h2>
+          <form>
+            <label for="pb-nom">Nom:</label>
+            <input type="text" id="pb-nom" name="nom" /><br />
+            <label for="pb-prenom">Prénom:</label>
+            <input type="text" id="pb-prenom" name="prenom" /><br />
+            <label for="pb-email">Email:</label>
+            <input type="email" id="pb-email" name="email" /><br />
+            <label for="pb-password">Mot de passe:</label>
+            <input type="password" id="pb-password" name="password" /><br />
+            <button type="submit">S'inscrire</button>
+          </form>
+        </div>
+        <div id="pb-connexion-form" class="pb-form pb-hidden">
+          <h2>Sign in to download</h2>
+          <form>
+            <label for="pb-email">Email:</label>
+            <input type="email" id="pb-email" name="email" /><br />
+            <label for="pb-password">Mot de passe:</label>
+            <input type="password" id="pb-password" name="password" /><br />
+            <button type="submit">Se connecter</button>
+          </form>
+        </div>
+      </div>
+    </div>
     <div class="pb-main">
       <header class="pb-header pb-flex pb-transparent">
         <div>
@@ -73,12 +103,12 @@
             ></a>
             <a
               href="#"
-              class="pb-nav-link pb-button pb-flex-inline pb-button-tertiary"
+              class="pb-connexion-btn pb-nav-link pb-button pb-flex-inline pb-button-tertiary"
               >Connexion</a
             >
             <a
               href="#"
-              class="pb-nav-link pb-button pb-flex-inline pb-button-secondary pb-me-1"
+              class="pb-inscription-btn pb-nav-link pb-button pb-flex-inline pb-button-secondary pb-me-1"
               >Rejoindre</a
             >
             <a
@@ -91,6 +121,7 @@
           </nav>
         </div>
       </header>
+
       <div class="pb-container-hero">
         <div class="pb-background-hero">
           <picture
@@ -468,6 +499,7 @@
         </footer>
       </div>
     </div>
+
     <!-- pixab Script -->
     <script src="pixab/js/pixab.js"></script>
   </body>
