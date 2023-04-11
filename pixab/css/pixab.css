@@ -169,7 +169,7 @@ a:not([href]):not([class]):hover {
 }
 
 .pb-pt-3 {
-  padding-top: 3rem;
+  padding-top: 3rem !important;
 }
 
 .pb-w-100 {
