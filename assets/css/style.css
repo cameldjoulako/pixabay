@@ -296,17 +296,10 @@
   background: #f7f7f7;
 }
 
-.buttonBase--r4opq {
-  border-radius: 24px;
-  height: 40px;
-  padding: 0 16px;
-  box-sizing: border-box;
-}
-
 .pb-container-main {
   margin: 0 auto;
   max-width: 1830px;
-  padding: 40px 0 0;
+  padding: 0 32px;
   height: 500px;
 }
 
@@ -317,4 +310,18 @@
 
 .pb-active .pb-icon {
   color: #00ab6b;
+}
+
+.pb-tag > a {
+  margin-right: 1rem;
+}
+
+.pb-tag-border {
+  border-left: 1px solid #b4b9bec1;
+}
+
+.pb-tag button {
+  margin-left: 0.5rem;
+  cursor: pointer;
+  font-weight: 300;
 }

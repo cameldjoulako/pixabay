@@ -68,6 +68,14 @@ a:not([href]):not([class]):hover {
   box-sizing: border-box;
 }
 
+.pb-button-soft {
+  display: inline-block;
+  border-radius: 13px;
+  height: 40px;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
 .pb-button-primary {
   color: var(--pb-white);
   border: none;
@@ -104,6 +112,20 @@ a:not([href]):not([class]):hover {
   border: 1px solid hsla(0, 0%, 100%, 0.1);
 }
 
+.pb-button-outline-dark {
+  background: #fff;
+  color: #656f79;
+  border: 1px solid #656f79;
+}
+
+.pb-btn-rounded {
+  border-radius: 24px;
+}
+
+.pb-button-outline-dark:hover {
+  border: 1px solid black;
+}
+
 .pb-flex-inline {
   display: inline-flex;
   align-items: center;
@@ -115,12 +137,43 @@ a:not([href]):not([class]):hover {
   font-weight: 600;
 }
 
+.pb-flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.pb-flex-align-center {
+  align-items: center;
+}
+
+.pb-flex-space-between {
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .pb-display-none {
+    display: none;
+  }
+}
+
 /* Margin et padding */
 .pb-me-1 {
   margin-right: 0.3rem;
 }
 .pb-ms-1 {
   margin-left: 0.3rem;
+}
+.pb-m-y-4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pb-pt-3 {
+  padding-top: 3rem;
+}
+
+.pb-w-100 {
+  width: 100%;
 }
 
 .pb-white-opacity-1 {
